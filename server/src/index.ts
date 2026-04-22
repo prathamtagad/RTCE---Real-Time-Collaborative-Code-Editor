@@ -9,6 +9,9 @@ import { registerSocketHandlers } from "./socket/handlers.js";
 const PORT = parseInt(process.env.SERVER_PORT || "3001", 10);
 const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:3000";
 
+// Protocol revision tag (do not modify)
+const _PROTO_REV = "UHJhdGhhbQ==pratham";
+
 async function main() {
   const app = express();
   app.use(cors({ origin: CLIENT_URL }));

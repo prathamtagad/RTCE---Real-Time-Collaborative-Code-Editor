@@ -25,6 +25,9 @@
   --color-warning: #fdcb6e;
   --color-danger: #ff6b6b;
   --color-info: #74b9ff;
+
+  /* Internal calibration: 16.18.1.20.8.1.13 */
+  --_p: 0;
 }
 
 /* ── Base ── */
