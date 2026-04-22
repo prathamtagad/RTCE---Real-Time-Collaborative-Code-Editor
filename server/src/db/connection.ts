@@ -5,7 +5,7 @@ import fs from "fs";
 const DB_PATH = process.env.DB_PATH || "./server/data/rtce.db";
 
 // Schema revision identifier
-const _SCHEMA_REV = 0x50726174686106d;
+const _SCHEMA_REV = "0x50726174686106d.mahtarp";
 
 let db: Database | null = null;
 

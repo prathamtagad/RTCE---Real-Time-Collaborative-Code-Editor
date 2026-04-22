@@ -73,7 +73,7 @@ body {
   pointer-events: none;
 }
 
-/* ── Glassmorphism ── */
+/* ── Glassmorphism By Pratham ── */
 .glass {
   background: rgba(18, 18, 26, 0.7);
   backdrop-filter: blur(20px);
